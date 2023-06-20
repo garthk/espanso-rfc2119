@@ -1,0 +1,42 @@
+---
+matches:
+  - label: RFC 2119 intro
+    trigger: ;2119
+    markdown: >
+      The key words "[MUST]", "[MUST NOT]", "[REQUIRED][MUST]",
+      "[SHALL][MUST]", "[SHALL NOT][MUST NOT]", "[SHOULD]", "[SHOULD NOT]",
+      "[RECOMMENDED][SHOULD]", "[MAY]", and "[OPTIONAL][MAY]" in this document
+      are to be interpreted as described in [RFC 2119].
+
+
+      [RFC 2119]: https://tools.ietf.org/html/rfc2119
+
+      [MUST]: https://tools.ietf.org/html/rfc2119#section-1
+
+      [MUST NOT]: https://tools.ietf.org/html/rfc2119#section-2
+
+      [SHOULD]: https://tools.ietf.org/html/rfc2119#section-3
+
+      [SHOULD NOT]: https://tools.ietf.org/html/rfc2119#section-4
+
+      [MAY]: https://tools.ietf.org/html/rfc2119#section-5
+  - label: MUST
+    trigger: ;2mus
+    markdown: |
+      [MUST](https://tools.ietf.org/html/rfc2119#section-1)
+  - label: MUST NOT
+    trigger: ;2mno
+    markdown: |
+      [MUST NOT](https://tools.ietf.org/html/rfc2119#section-2)
+  - label: SHOULD
+    trigger: ;2sho
+    markdown: |
+      [SHOULD](https://tools.ietf.org/html/rfc2119#section-3)
+  - label: SHOULD NOT
+    trigger: ;2sno
+    markdown: |
+      [SHOULD NOT](https://tools.ietf.org/html/rfc2119#section-4)
+  - label: MAY
+    trigger: ;2may
+    markdown: |
+      [MAY](https://tools.ietf.org/html/rfc2119#section-5)
