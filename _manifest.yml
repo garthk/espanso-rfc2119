@@ -1,5 +1,5 @@
 ---
-name: RFC2119
+name: espanso-rfc2119
 title: RFC 2119 key words.
 description: You [MAY] expand these matches into links to [RFC 2119].
 version: 0.1.0
